@@ -48,7 +48,7 @@ def babygenerator():
         letter4 = random.choice(string.ascii_lowercase)
     else:
         letter4 = letter4Input
-        
+         
 
         
     name = letter1+letter2+letter3+letter4
