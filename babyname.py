@@ -11,6 +11,7 @@ consonants = 'bcdfghjklmnpqrstvwxyz'
 
 
 
+
 def babygenerator():
     if letter1Input == "v":
         letter1 = random.choice(vowels)
