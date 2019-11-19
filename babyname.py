@@ -22,6 +22,7 @@ letter5Input = input("V for vowels, C for consonants , l for any letter")
 vowels = 'aeiouy'
 consonants = 'bcdfghjklmnpqrstvwxyz'
 
+
 def babygenerator():
     if letter1Input == "v":
         letter1 = random.choice(vowels)
