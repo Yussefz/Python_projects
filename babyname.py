@@ -1,23 +1,10 @@
 import string , random
 
-"""def babygenerator():
-    letter1 = random.choice(string.ascii_lowercase)
-    letter2 = random.choice(string.ascii_lowercase)
-    letter3 = random.choice(string.ascii_lowercase)
-    letter4 = random.choice(string.ascii_lowercase)
-    letter5 = random.choice(string.ascii_lowercase)
-    letter6 = random.choice(string.ascii_lowercase)
 
-    name = letter1 + letter2 + letter3 + letter4 + letter5 + letter6
-    return name
-
-print(babygenerator())
-
-"""
-letter1Input = input("V for vowels, C for consonants , l for any letter")
-letter2Input = input("V for vowels, C for consonants , l for any letter")
-letter3Input = input("V for vowels, C for consonants , l for any letter")
-letter5Input = input("V for vowels, C for consonants , l for any letter")
+letter1Input = input("V for vowels, C for consonants , l for any letter : ")
+letter2Input = input("V for vowels, C for consonants , l for any letter : ")
+letter3Input = input("V for vowels, C for consonants , l for any letter : ")
+letter4Input = input("V for vowels, C for consonants , l for any letter : ")
 
 vowels = 'aeiouy'
 consonants = 'bcdfghjklmnpqrstvwxyz'
@@ -49,18 +36,20 @@ def babygenerator():
     elif letter3Input == "l":
         letter3 = random.choice(string.ascii_lowercase)
     else:
-        letter3 = letter2Input
+        letter3 = letter3Input
 
-    if letter5Input == "v":
-        letter5 = random.choice(vowels)
-    elif letter5Input == "c":
-        letter5 = random.choice(consonants)
-    elif letter5Input == "l":
-        letter5 = random.choice(string.ascii_lowercase)
+    if letter4Input == "v":
+        letter4 = random.choice(vowels)
+    elif letter4Input == "c":
+        letter4 = random.choice(consonants)
+    elif letter4Input == "l":
+        letter4 = random.choice(string.ascii_lowercase)
     else:
-        letter5 = letter5Input
+        letter4 = letter4Input
+        
 
-    name = letter1+letter2+letter3+letter5
+        
+    name = letter1+letter2+letter3+letter4
     return(name)
 
-print(babygenerator())
+print('The generated name is :    ' + babygenerator())
