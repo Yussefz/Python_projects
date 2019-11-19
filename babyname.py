@@ -1,5 +1,5 @@
 import string , random
-
+ 
 
 letter1Input = input("V for vowels, C for consonants , l for any letter : ")
 letter2Input = input("V for vowels, C for consonants , l for any letter : ")
