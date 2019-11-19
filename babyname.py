@@ -9,7 +9,7 @@ letter4Input = input("V for vowels, C for consonants , l for any letter : ")
 vowels = 'aeiouy'
 consonants = 'bcdfghjklmnpqrstvwxyz'
 
-
+ 
 
 
 def babygenerator():
